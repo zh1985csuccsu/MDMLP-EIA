@@ -1,0 +1,8 @@
+# Core (tested with Python 3.8+)
+torch>=1.7.0
+numpy>=1.19.0
+pandas>=1.0.0
+
+# Optional: for data loading / plotting
+matplotlib
+scikit-learn
