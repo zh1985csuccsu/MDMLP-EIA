@@ -56,18 +56,7 @@ Place datasets under `./dataset/` (or set `--root_path`). Supported datasets:
 ### Training and testing (single run)
 
 ```bash
-python run.py \
-  --is_training 1 \
-  --model_id ETTh1_96_96 \
-  --model MDMLP_EIA \
-  --data ETTh1 \
-  --data_path ETTh1.csv \
-  --features M \
-  --seq_len 96 \
-  --pred_len 96 \
-  --enc_in 7 \
-  --des exp \
-  --itr 1
+python run.py --is_training 1 --model_id ETTh1_96_96 --model MDMLP_EIA --data ETTh1
 ```
 
 ## Citation
