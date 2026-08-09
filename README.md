@@ -1,3 +1,5 @@
+
+
 # MDMLP-EIA: Multi-domain Dynamic MLPs with Energy Invariant Attention for Time Series Forecasting
 
 [![arXiv](https://img.shields.io/badge/arXiv-2511.09924-b31b1b.svg)](https://arxiv.org/abs/2511.09924)
@@ -21,7 +23,7 @@ Time series forecasting is essential across diverse domains. While MLP-based met
 Extensive experiments across nine benchmark datasets demonstrate that MDMLP-EIA achieves state-of-the-art performance in both prediction accuracy and computational efficiency.
 
 - **Paper:** [arXiv:2511.09924](https://arxiv.org/abs/2511.09924) | [PDF](https://arxiv.org/pdf/2511.09924)
-- **DOI:** [10.48550/arXiv.2511.09924](https://doi.org/10.48550/arXiv.2511.09924)
+- **DOI:** [10.48550/arXiv:2511.09924](https://doi.org/10.48550/arXiv:2511.09924)
 
 ---
 
@@ -48,6 +50,10 @@ pip install -r requirements.txt
 ## Data
 
 Place datasets under `./dataset/` (or set `--root_path`). Supported datasets:
+- `ETTh1`, `ETTh2`, `ETTm1`, `ETTm2` (Electricity Transformer Temperature datasets)
+- `custom` (Custom CSV datasets)
+- `Solar` (Solar energy production datasets)
+- `PEMS` (Traffic flow datasets)
 
 ---
 
